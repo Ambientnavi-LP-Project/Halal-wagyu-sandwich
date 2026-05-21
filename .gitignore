@@ -1,14 +1,6 @@
-# macOS
+node_modules/
+_site/
 .DS_Store
-
-# Unused template assets (kept locally, not tracked)
-assets/burger.jpg
-assets/burger2.jpg
-assets/steak.jpg
-assets/store.jpg
-assets/hero-center.mp4
-assets/hero-left.mp4
-assets/hero-left-new.mp4
-assets/hero-left-steak.mp4
-assets/hero-right.mp4
-assets/hero-right-new.mp4
+.env
+.env.local
+*.log

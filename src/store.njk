@@ -167,10 +167,19 @@ eleventyComputed:
     </div>
     <div class="hero-overlay"></div>
 
+    <!-- 上部の店名キャプション(フル1本) -->
+    <div class="reveal" style="position:absolute; top:42px; left:50%; transform:translateX(-50%); text-align:center; z-index:1; width:92%; max-width:560px;">
+      <p style="font-family:'Cormorant Garamond', serif; font-size:clamp(1rem,3.8vw,1.3rem); letter-spacing:.06em; color:#f5ede0; font-weight:400; line-height:1.45;">
+        {{ store.name_full }}
+      </p>
+    </div>
+
     <div style="position:relative; z-index:1; text-align:center; width:100%; max-width:360px;">
       <p class="label reveal d1" style="margin-bottom:14px;">ASAKUSA · TOKYO · 浅草</p>
-      <h1 class="reveal d2" style="font-family:'Bebas Neue'; font-size:clamp(1.7rem,6vw,2.7rem); font-weight:700; line-height:1.12; letter-spacing:-.005em; margin-bottom:14px; color:#f5ede0;">
-        {{ store.name_full }}
+      <h1 class="reveal d2" style="font-family:'Bebas Neue'; font-size:clamp(2.5rem,10vw,4rem); font-weight:700; line-height:1.1; letter-spacing:-.01em; margin-bottom:14px; color:#f5ede0;">
+        Tokyo's Asakusa<br/>
+        <em style="color:#c9a84c; font-style:normal;">Legendary</em><br/>
+        Wagyu Steak Sandwich
       </h1>
       <p class="reveal d3" style="font-size:clamp(.85rem,3vw,.95rem); color:rgba(245,237,224,.72); font-weight:300; letter-spacing:.06em; margin-bottom:6px;">
         A True Wagyu Experience from the 5th Generation Butcher.

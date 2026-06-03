@@ -17,6 +17,7 @@ module.exports = {
       slug: "asakusa-shotengai",
       // ===== 店名(フル・英中まとめて1つ・順番そのまま) =====
       name_full: "Asakusa Restaurant Wagyu Steak Sandwich (Halal Vegan Gluten Free) 浅草 和牛 餐厅",
+      hero_place: "Tokyo's Asakusa",
       // ===== 立地 =====
       city: "Asakusa, Tokyo",
       station_en: "Asakusa Station",
@@ -31,11 +32,71 @@ module.exports = {
       // ===== 予約・地図 =====
       tablecheck_url: "https://www.tablecheck.com/ja/wagyu-burger-steak-teriyaki-5w-tokyo/reserve/message",
       maps_link: "https://maps.app.goo.gl/Fm9S1AoxVKvdDdp96",
+      map_embed: "",
       // ===== 評価 =====
       rating: "4.8",
       rating_count: "254",
       rating_source: "Google Review"
+    },
+    {
+      region: "osaka",
+      slug: "ohatsu-tenjin",
+      name_full: "Osaka Station Restaurant Steak Sandwich & Pizza (Halal Gluten Free) Umeda 大阪 梅田 和牛 餐厅",
+      hero_place: "Osaka's Umeda",
+      city: "Umeda, Osaka",
+      station_en: "Higashi-Umeda Station",
+      address_en: "MK Sonezaki Bldg. 2F, 2-14-6 Sonezaki, Kita-ku, Osaka",
+      address_postal: "530-0057",
+      tel_display: "090-6352-2034",
+      tel_raw: "+819063522034",
+      hours: "11:00 — 23:00",
+      hours_note: "Open Daily",
+      tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ohatsutennjin/reserve",
+      maps_link: "https://maps.app.goo.gl/JfmeqPajkWKM5UL66",
+      map_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.25086258062225!2d135.5012489!3d34.7009181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e77e37b73445%3A0x88bf5e7ac800f5de!2zT3Nha2EgU3RhdGlvbiBSZXN0YXVyYW50IFN0ZWFrIFNhbmR3aWNoICYgUGl6emEgKEhhbGFsIEdsdXRlbiBGcmVlICkgVW1lZGEg5aSn6ZiqIOaiheeUsCDlkozniZsg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1780449791240!5m2!1sja!2sjp",
+      rating: "4.8",
+      rating_count: "309",
+      rating_source: "Google Review"
+    },
+    {
+      region: "tokyo",
+      slug: "ginza",
+      name_full: "Wagyu Halal Hamburger Pizza & Steak Sandwich (Vegan Gluten Free) Ginza Restaurant 和牛 东京 银座 餐厅",
+      hero_place: "Tokyo's Ginza",
+      city: "Ginza, Tokyo",
+      station_en: "Ginza Station",
+      address_en: "Hasegawa Bldg. B1F, 7-11-11 Ginza, Chuo-ku, Tokyo",
+      address_postal: "104-0061",
+      tel_display: "080-9018-8212",
+      tel_raw: "+818090188212",
+      hours: "11:00 — 23:00",
+      hours_note: "Open Daily",
+      tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ginza-sandwich-5w-tokyo/reserve",
+      maps_link: "https://maps.app.goo.gl/XQbhE2pp1hMXt5C1A",
+      map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7801937349786!2d139.7631414!3d35.668061699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1c748bfe75%3A0x41f222901408a66b!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyIFBpenphICYgU3RlYWsgU2FuZHdpY2ggKFZlZ2FuIEdsdXRlbiBGcmVlKSBHaW56YSBSZXN0YXVyYW50IOWSjOeJmyDkuJzkuqwg6ZO25bqnIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780449882693!5m2!1sja!2sjp",
+      rating: "4.8",
+      rating_count: "1,146",
+      rating_source: "Google Review"
+    },
+    {
+      region: "kyoto",
+      slug: "kiyomizudera",
+      name_full: "Kyoto Wagyu Steak Sandwich Pizza (Halal Vegan Gluten Free) 和牛牛排 Kiyomizudera Restaurant 清水寺 餐厅",
+      hero_place: "Kyoto's Kiyomizudera",
+      city: "Kiyomizudera, Kyoto",
+      station_en: "Kiyomizu-Gojo Station",
+      address_en: "4-143 Kiyomizu, Higashiyama-ku, Kyoto",
+      address_postal: "605-0862",
+      tel_display: "070-3525-2082",
+      tel_raw: "+817035252082",
+      hours: "9:00 — 21:00",
+      hours_note: "Open Daily",
+      tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-kiyomizuzaka/reserve",
+      maps_link: "https://maps.app.goo.gl/3AjYanjvHYbsQfJe6",
+      map_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243.37231411001326!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109d0b805cb83%3A0xcba3d855935756f6!2zS3lvdG8gV2FneXUgU3RlYWsgU2FuZHdpY2ggUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSDlkozniZvniZvmjpIgS2l5b21penVkZXJhIFJlc3RhdXJhbnQg5riF5rC05a-6IOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780450007119!5m2!1sja!2sjp",
+      rating: "4.7",
+      rating_count: "316",
+      rating_source: "Google Review"
     }
-    // ===== 2店舗目を追加するときはこの下にもう1つ { ... } を書くだけ =====
   ]
 };

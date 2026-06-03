@@ -313,7 +313,7 @@ eleventyComputed:
     </div>
 
     <div class="reveal google-rating-block" style="max-width:720px; margin:0 auto 28px; padding:0 24px;">
-      <img src="/assets/google_rating.jpg" alt="Google Maps {{ store.rating }}評価 {{ store.rating_count }}件のクチコミ" class="google-rating-img" style="border-radius:12px; display:block; box-shadow:0 2px 12px rgba(24,20,12,.1);" />
+      <img src="/assets/{{ store.slug }}-google_rating.jpg" alt="Google Maps {{ store.rating }}評価 {{ store.rating_count }}件のクチコミ" class="google-rating-img" style="border-radius:12px; display:block; box-shadow:0 2px 12px rgba(24,20,12,.1);" />
       <div class="google-rating-text">
         <p style="font-family:'Bebas Neue', sans-serif; font-size:clamp(1.4rem,3vw,2rem); letter-spacing:.08em; color:#c9a84c; margin-bottom:6px;">Thanks!<br/>{{ store.rating_source }}</p>
         <p style="font-family:'Bebas Neue', sans-serif; font-size:clamp(2.8rem,6vw,4rem); line-height:1; color:#18140c; margin-bottom:6px;">

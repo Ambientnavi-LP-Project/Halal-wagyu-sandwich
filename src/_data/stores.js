@@ -65,7 +65,7 @@ module.exports = {
     {
       region: "tokyo",
       slug: "ginza",
-      name_full: "Wagyu Halal Hamburger Pizza & Steak Sandwich (Vegan Gluten Free) Ginza Restaurant 和牛 东京 银座 餐厅",
+      name_full: "Kobe Beef Wagyu Halal Hamburger Pizza & Steak (Vegan Gluten Free) Ginza Restaurant  银座 神户 和牛 餐厅",
       hero_place: "Tokyo's Ginza",
       area_en: "Ginza",
       area_jp: "銀座",

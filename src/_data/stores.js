@@ -94,7 +94,10 @@ module.exports = {
       extra_concept: {
         label: "GINZA EXCLUSIVE",
         logo: "/assets/ginza/kobe-beef-logo.png",
-        image: "/assets/ginza/kobe-beef-burger-hands.jpg",
+        images: [
+          "/assets/ginza/concept-burger.jpg",
+          "/assets/ginza/concept-steak.jpg"
+        ],
         heading: "Now Serving<br/>Kobe Beef",
         body: [
           "At our Ginza flagship, we proudly introduce Kobe Beef — one of the most celebrated names in Japanese Wagyu, prized for its delicate marbling, melt-in-the-mouth texture, and deep, refined umami.",

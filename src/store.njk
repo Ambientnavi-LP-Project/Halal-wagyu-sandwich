@@ -351,6 +351,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
+  {# ===== 銀座限定: 追加コンセプト(KOBE BEEF)。store.extra_concept があるときだけ描画 ===== #}
+  {% if store.extra_concept %}
+  <section style="background:#faf8f4; padding:72px 24px; border-top:1px solid rgba(201,168,76,.15);">
+    <div style="max-width:900px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:32px;">
+        <p class="label reveal" style="margin-bottom:18px;">{{ store.extra_concept.label }}</p>
+        <img src="{{ store.extra_concept.logo }}" alt="Kobe Beef" loading="lazy" class="reveal d1" style="width:210px; max-width:62%; height:auto; margin:0 auto 18px; display:block;" />
+        <h2 class="reveal d1" style="font-family:'Bebas Neue'; font-size:clamp(1.6rem,6vw,2.2rem); font-weight:600; line-height:1.25;">
+          {{ store.extra_concept.heading | safe }}
+        </h2>
+        <span class="gold-rule reveal"></span>
+      </div>
+
+      <div class="img-frame reveal" style="margin-bottom:24px; padding:0;">
+        <div class="img-frame-inner" style="aspect-ratio:16/9; position:relative;">
+          <img src="{{ store.extra_concept.image }}" alt="Kobe Beef — {{ store.name_full }}" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;" />
+        </div>
+      </div>
+
+      <div class="wagyu-text-wrap reveal d2" style="margin:0 auto;">
+        {% for para in store.extra_concept.body %}
+        <p style="font-size:clamp(.88rem,3vw,.98rem); line-height:2; color:rgba(24,20,12,.65); font-weight:300; letter-spacing:.03em; margin-bottom:22px; text-align:left;">{{ para }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   <!-- MENU -->
   <section style="background:#faf8f4; padding:72px 24px;">
     <div style="max-width:900px; margin:0 auto;">
@@ -396,6 +424,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="menu-card-desc">Japanese Wagyu patty · Grilled Wagyu steak · Signature house sauce · Value set available</p>
           </div>
         </div>
+        {# ===== 銀座限定: 追加メニュー。store.extra_menu があるときだけ描画 ===== #}
+        {% if store.extra_menu %}
+        {% for item in store.extra_menu %}
+        <div class="menu-card reveal">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-wrap-inner">
+              <img class="menu-card-img" src="{{ item.img }}" alt="{{ item.name }}" loading="lazy" />
+            </div>
+          </div>
+          <div class="menu-card-body">
+            <p class="menu-card-name">{{ item.name }}</p>
+            <p class="menu-card-desc">{{ item.desc }}</p>
+          </div>
+        </div>
+        {% endfor %}
+        {% endif %}
       </div>
     </div>
   </section>

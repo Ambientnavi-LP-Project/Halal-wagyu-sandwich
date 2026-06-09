@@ -76,7 +76,32 @@ module.exports = {
       map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7801937349786!2d139.7631414!3d35.668061699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1c748bfe75%3A0x41f222901408a66b!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyIFBpenphICYgU3RlYWsgU2FuZHdpY2ggKFZlZ2FuIEdsdXRlbiBGcmVlKSBHaW56YSBSZXN0YXVyYW50IOWSjOeJmyDkuJzkuqwg6ZO25bqnIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780449882693!5m2!1sja!2sjp",
       rating: "4.8",
       rating_count: "1,146",
-      rating_source: "Google Review"
+      rating_source: "Google Review",
+      // ===== 銀座限定: 追加メニュー(extra_menu)。この店舗だけに表示される =====
+      extra_menu: [
+        {
+          img: "/assets/ginza/kobe-beef-burger.jpg",
+          name: "Kobe Beef Burger",
+          desc: "Triple-stacked Kobe Beef patties · Melted cheddar · Fresh tomato & lettuce · Branded brioche bun"
+        },
+        {
+          img: "/assets/ginza/wagyu-steak-plate.jpg",
+          name: "Kobe Beef Steak Plate",
+          desc: "Premium Kobe Beef, lightly seared · Seasonal grilled vegetables · Served on charcoal stoneware"
+        }
+      ],
+      // ===== 銀座限定: 追加コンセプト(extra_concept)。この店舗だけに表示される =====
+      extra_concept: {
+        label: "GINZA EXCLUSIVE",
+        logo: "/assets/ginza/kobe-beef-logo.png",
+        image: "/assets/ginza/kobe-beef-burger-hands.jpg",
+        heading: "Now Serving<br/>Kobe Beef",
+        body: [
+          "At our Ginza flagship, we proudly introduce Kobe Beef — one of the most celebrated names in Japanese Wagyu, prized for its delicate marbling, melt-in-the-mouth texture, and deep, refined umami.",
+          "Each cut is prepared with the same craftsmanship that defines our kitchen: sourced through halal-certified processing, handled with care to preserve freshness, and cooked to bring out the natural character of the meat.",
+          "Enjoy it stacked into our signature burger or served simply as a lightly seared steak — a true taste of Kobe, available only here in Ginza."
+        ]
+      }
     },
     {
       region: "kyoto",

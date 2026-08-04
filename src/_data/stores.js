@@ -32,9 +32,10 @@ module.exports = {
       hours: "11:00 — 23:00",
       hours_note: "Open Daily",
       // ===== 予約・地図 =====
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/ja/wagyu-burger-steak-teriyaki-5w-tokyo/reserve/message",
       maps_link: "https://maps.app.goo.gl/Fm9S1AoxVKvdDdp96",
-      map_embed: "",
+      maps_embed: "",
       // ===== 評価 =====
       rating: "4.8",
       rating_count: "254",
@@ -55,9 +56,10 @@ module.exports = {
       tel_raw: "+819063522034",
       hours: "11:00 — 23:00",
       hours_note: "Open Daily",
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ohatsutennjin/reserve",
       maps_link: "https://maps.app.goo.gl/JfmeqPajkWKM5UL66",
-      map_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.25086258062225!2d135.5012489!3d34.7009181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e77e37b73445%3A0x88bf5e7ac800f5de!2zT3Nha2EgU3RhdGlvbiBSZXN0YXVyYW50IFN0ZWFrIFNhbmR3aWNoICYgUGl6emEgKEhhbGFsIEdsdXRlbiBGcmVlICkgVW1lZGEg5aSn6ZiqIOaiheeUsCDlkozniZsg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1780449791240!5m2!1sja!2sjp",
+      maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.25086258062225!2d135.5012489!3d34.7009181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e77e37b73445%3A0x88bf5e7ac800f5de!2zT3Nha2EgU3RhdGlvbiBSZXN0YXVyYW50IFN0ZWFrIFNhbmR3aWNoICYgUGl6emEgKEhhbGFsIEdsdXRlbiBGcmVlICkgVW1lZGEg5aSn6ZiqIOaiheeUsCDlkozniZsg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1780449791240!5m2!1sja!2sjp",
       rating: "4.8",
       rating_count: "309",
       rating_source: "Google Review"
@@ -77,9 +79,10 @@ module.exports = {
       tel_raw: "+818090188212",
       hours: "11:00 — 23:00",
       hours_note: "Open Daily",
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ginza-sandwich-5w-tokyo/reserve",
       maps_link: "https://maps.app.goo.gl/XQbhE2pp1hMXt5C1A",
-      map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7801937349786!2d139.7631414!3d35.668061699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1c748bfe75%3A0x41f222901408a66b!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyIFBpenphICYgU3RlYWsgU2FuZHdpY2ggKFZlZ2FuIEdsdXRlbiBGcmVlKSBHaW56YSBSZXN0YXVyYW50IOWSjOeJmyDkuJzkuqwg6ZO25bqnIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780449882693!5m2!1sja!2sjp",
+      maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7801937349786!2d139.7631414!3d35.668061699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1c748bfe75%3A0x41f222901408a66b!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyIFBpenphICYgU3RlYWsgU2FuZHdpY2ggKFZlZ2FuIEdsdXRlbiBGcmVlKSBHaW56YSBSZXN0YXVyYW50IOWSjOeJmyDkuJzkuqwg6ZO25bqnIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780449882693!5m2!1sja!2sjp",
       rating: "4.8",
       rating_count: "1,146",
       rating_source: "Google Review",
@@ -127,9 +130,10 @@ module.exports = {
       tel_raw: "+817035252082",
       hours: "9:00 — 21:00",
       hours_note: "Open Daily",
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-kiyomizuzaka/reserve",
       maps_link: "https://maps.app.goo.gl/3AjYanjvHYbsQfJe6",
-      map_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243.37231411001326!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109d0b805cb83%3A0xcba3d855935756f6!2zS3lvdG8gV2FneXUgU3RlYWsgU2FuZHdpY2ggUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSDlkozniZvniZvmjpIgS2l5b21penVkZXJhIFJlc3RhdXJhbnQg5riF5rC05a-6IOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780450007119!5m2!1sja!2sjp",
+      maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243.37231411001326!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109d0b805cb83%3A0xcba3d855935756f6!2zS3lvdG8gV2FneXUgU3RlYWsgU2FuZHdpY2ggUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSDlkozniZvniZvmjpIgS2l5b21penVkZXJhIFJlc3RhdXJhbnQg5riF5rC05a-6IOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1780450007119!5m2!1sja!2sjp",
       rating: "4.7",
       rating_count: "316",
       rating_source: "Google Review"

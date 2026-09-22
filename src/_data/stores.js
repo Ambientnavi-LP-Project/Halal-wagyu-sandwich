@@ -128,7 +128,7 @@ module.exports = {
       address_postal: "605-0862",
       tel_display: "070-3525-2082",
       tel_raw: "+817035252082",
-      hours: "9:00 — 21:00",
+      hours: "9:00 — 23:00",
       hours_note: "Open Daily",
       reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kiyomizuzaka/reserve/message",

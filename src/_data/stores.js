@@ -26,8 +26,8 @@ module.exports = {
       address_en: "2-26-5 Asakusa, Taito-ku, Tokyo",
       address_postal: "111-0032",
       // ===== 連絡先 =====
-      tel_display: "070-3515-2252",
-      tel_raw: "+817035152252",
+      tel_display: "090-5679-9423",
+      tel_raw: "+819056799423",
       // ===== 営業 =====
       hours: "11:00 — 23:00",
       hours_note: "Open Daily",

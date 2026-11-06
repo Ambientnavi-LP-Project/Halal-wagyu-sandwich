@@ -75,8 +75,8 @@ module.exports = {
       station_en: "Ginza Station",
       address_en: "Hasegawa Bldg. B1F, 7-11-11 Ginza, Chuo-ku, Tokyo",
       address_postal: "104-0061",
-      tel_display: "080-9018-8212",
-      tel_raw: "+818090188212",
+      tel_display: "0362645129",
+      tel_raw: "+81362645129",
       hours: "11:00 — 23:00",
       hours_note: "Open Daily",
       reserve_system: "tablecheck",  // "tablecheck" | "form"
